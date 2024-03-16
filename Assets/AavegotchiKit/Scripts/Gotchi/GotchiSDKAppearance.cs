@@ -148,7 +148,7 @@ namespace PortalDefender.AavegotchiKit
                     aavegotchiData.EyeShape = EEyeShape.wBTC;
                     break;
 
-                case "maPolygon":
+                case "amWMATIC":
                     aavegotchiData.CollateralType = ECollateral.Polygon;
                     aavegotchiData.EyeShape = EEyeShape.POLYGON;
                     break;
@@ -178,12 +178,12 @@ namespace PortalDefender.AavegotchiKit
                         aavegotchiData.Head_WearableID = gotchi.Data.equippedWearables[i];
                         break;
 
-                    case GotchiEquipmentSlot.HAND_LEFT:
-                        aavegotchiData.HandLeft_WearableID = gotchi.Data.equippedWearables[i];
+                    case GotchiEquipmentSlot.HAND_LEFT: // hands are swapped in the SDK
+                        aavegotchiData.HandRight_WearableID = gotchi.Data.equippedWearables[i];
                         break;
 
-                    case GotchiEquipmentSlot.HAND_RIGHT:
-                        aavegotchiData.HandRight_WearableID = gotchi.Data.equippedWearables[i];
+                    case GotchiEquipmentSlot.HAND_RIGHT: // hands are swapped in the SDK
+                        aavegotchiData.HandLeft_WearableID = gotchi.Data.equippedWearables[i];
                         break;
 
                     case GotchiEquipmentSlot.PET:
