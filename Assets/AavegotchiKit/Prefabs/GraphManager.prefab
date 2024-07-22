@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8732168173986614118}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8732168173986614119
 MonoBehaviour:
@@ -46,4 +46,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPersistent: 0
   coreGraphConfig: {fileID: 11400000, guid: 021b05d2aadb0d649939abf18d6561f9, type: 2}
-  svgGraphConfig: {fileID: 11400000, guid: e603a22ae470410479dd352933acf61f, type: 2}
+  svgGraphConfig: {fileID: 11400000, guid: 9b5924e2d486c544da776bba8535b54e, type: 2}
