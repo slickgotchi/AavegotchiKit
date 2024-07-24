@@ -153,7 +153,7 @@ public class SvgLoader
 
 
     // Uses the Unity SVG Lib to import an SVG Sprite at runtime
-    public static Sprite CreateSvgSprite(string data, Vector2 customPivot, bool preserveViewport = true)
+    public static Sprite CreateSvgSprite(string data, Vector2 customPivot, float svgPixelsPerUnit = 36f, bool preserveViewport = true)
     {
         if (string.IsNullOrEmpty(data))
             return null;
@@ -182,8 +182,6 @@ public class SvgLoader
             float samplingStepSize = 100.0f;
             float maxCoordDeviation = float.MaxValue;
             float maxTanAngleDeviation = Mathf.PI * 0.5f;
-
-            float svgPixelsPerUnit = 64f;
 
             VectorUtils.Alignment alignment = VectorUtils.Alignment.Center;
 
@@ -336,9 +334,9 @@ public class SvgLoader
         return svgImageMaterial;
     }
 
-    public static Texture2D CreateSvgImage(string data, Vector2 customPivot, bool preserveViewport = true)
+    public static Texture2D CreateSvgImage(string data, Vector2 customPivot, float svgPerPixelUnits, bool preserveViewport = true)
     {
-        var sprite = CreateSvgSprite(data, customPivot, preserveViewport);
+        var sprite = CreateSvgSprite(data, customPivot, svgPerPixelUnits, preserveViewport);
         if (sprite == null)
             return null;
 

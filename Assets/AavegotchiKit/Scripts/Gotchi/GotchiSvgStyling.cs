@@ -81,7 +81,7 @@ namespace PortalDefender.AavegotchiKit
                 {
                     if (style.InnerText.Contains(".gotchi-handsDownClosed"))
                     {
-                        style.InnerText = style.InnerText.Replace(".gotchi-handsDownClosed{display:block;}", ".gotchi-handsDownClosed{display:none;}");
+                        style.InnerText = style.InnerText.Replace(".gotchi-handsDownClosed{display:block", ".gotchi-handsDownClosed{display:none");
                     }
                     else
                     {
@@ -93,7 +93,7 @@ namespace PortalDefender.AavegotchiKit
                 { 
                     if (style.InnerText.Contains(".gotchi-handsDownOpen"))
                     {
-                        style.InnerText = style.InnerText.Replace(".gotchi-handsDownOpen{display:block;}", ".gotchi-handsDownOpen{display:none;}");
+                        style.InnerText = style.InnerText.Replace(".gotchi-handsDownOpen{display:block", ".gotchi-handsDownOpen{display:none");
                     }
                     else
                     {
@@ -103,7 +103,7 @@ namespace PortalDefender.AavegotchiKit
                     //also remove sleeves? hmm style doesn't seem to apply to sub svg's (bug)
                     if (style.InnerText.Contains(".gotchi-sleeves-down"))
                     {
-                        style.InnerText = style.InnerText.Replace(".gotchi-sleeves-down{display:block;}", ".gotchi-sleeves-down{display:none;}");
+                        style.InnerText = style.InnerText.Replace(".gotchi-sleeves-down{display:block", ".gotchi-sleeves-down{display:none");
                     }
                     else
                     {
