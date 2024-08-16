@@ -89,7 +89,7 @@ namespace PortalDefender.AavegotchiKit
                     }
 
                     // append fix for naked side view gotchis
-                    style.InnerText = @".gotchi-wearable.wearable-hand-right,
+                    style.InnerText = @"gotchi-wearable.wearable-hand-right,
                         .gotchi-wearable.gotchi-primary[d=""M25 44h-1v-4h1v-1h2v-1h2v-1h1v-1h1v-1h2v1h-.2v5h.2v1h-1v1h-1v1h-2v1h-4v-1z""],
                         .gotchi-wearable[d=""M25,40h2v-1h2v-1h1v-1h1v-1h2v5h-1v1h-1v1h-2v1h-4V40z""],
                         .gotchi-wearable.gotchi-secondary path[d=""M33 40v1h-1v-1h1z""],
@@ -98,7 +98,7 @@ namespace PortalDefender.AavegotchiKit
                             display: none!important;
                         }" + style.InnerText;
 
-                    style.InnerText = @".gotchi-wearable.wearable-hand-left,
+                    style.InnerText = @"gotchi-wearable.wearable-hand-left,
                         .gotchi-wearable.gotchi-primary[d=""M39 45h-4v-1h-2v-1h-1v-1h-1v-1h.2v-5H31v-1h2v1h1v1h1v1h2v1h2v1h1v4h-1v1z""],
                         .gotchi-wearable[d=""M39 44h-4v-1h-2v-1h-1v-1h-1v-5h2v1h1v1h1v1h2v1h2v4z""],
                         .gotchi-wearable.gotchi-secondary path[d=""M32 40v1h-1v-1h1z""],
@@ -132,7 +132,7 @@ namespace PortalDefender.AavegotchiKit
                     }
 
                     // append fix for naked side view gotchis
-                    style.InnerText = @".gotchi-wearable.wearable-hand-right,
+                    style.InnerText = @"gotchi-wearable.wearable-hand-right,
                         .gotchi-wearable.gotchi-primary[d=""M25 44h-1v-4h1v-1h2v-1h2v-1h1v-1h1v-1h2v1h-.2v5h.2v1h-1v1h-1v1h-2v1h-4v-1z""],
                         .gotchi-wearable[d=""M25,40h2v-1h2v-1h1v-1h1v-1h2v5h-1v1h-1v1h-2v1h-4V40z""],
                         .gotchi-wearable.gotchi-secondary path[d=""M33 40v1h-1v-1h1z""],
@@ -141,7 +141,7 @@ namespace PortalDefender.AavegotchiKit
                             display: none!important;
                         }" + style.InnerText;
 
-                    style.InnerText = @".gotchi-wearable.wearable-hand-left,
+                    style.InnerText = @"gotchi-wearable.wearable-hand-left,
                         .gotchi-wearable.gotchi-primary[d=""M39 45h-4v-1h-2v-1h-1v-1h-1v-1h.2v-5H31v-1h2v1h1v1h1v1h2v1h2v1h1v4h-1v1z""],
                         .gotchi-wearable[d=""M39 44h-4v-1h-2v-1h-1v-1h-1v-5h2v1h1v1h1v1h2v1h2v4z""],
                         .gotchi-wearable.gotchi-secondary path[d=""M32 40v1h-1v-1h1z""],
